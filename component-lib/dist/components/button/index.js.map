@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/components/button/Button.tsx"],
+  "sourcesContent": ["import React from 'react';\n\nexport const Button = () => {\n\n  const btnClicked = () => {\n    console.log('btn clicked');\n  }\n\n  return (\n    <div className=\"button-container\">\n      <button className=\"button\" onClick={btnClicked}>\n        Click me       \n      </button>\n    </div>\n  );\n}\n\nexport default Button;\n\n"],
+  "mappings": ";AAUM;AARC,IAAM,SAAS,MAAM;AAE1B,QAAM,aAAa,MAAM;AACvB,YAAQ,IAAI,aAAa;AAAA,EAC3B;AAEA,SACE,oBAAC,SAAI,WAAU,oBACb,8BAAC,YAAO,WAAU,UAAS,SAAS,YAAY,sBAEhD,GACF;AAEJ;",
+  "names": []
+}
